@@ -23,7 +23,7 @@ minutes = int(((diff.seconds) / 60) % 60)
 seconds = diff.seconds % 60
 
 toast.show_toast("Overwatch League Paris 2020",
-                   "{0} päivää, {1} tuntia, {2} minuuttia, {3} sekuntia".format(days, hours, minutes, seconds),
+                   "{0} days, {1} hours, {2} minutes, {3} seconds".format(days, hours, minutes, seconds),
                    icon_path="owl.ico",
                    duration=25)
 
