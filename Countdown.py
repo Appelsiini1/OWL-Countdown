@@ -15,16 +15,12 @@ time1  = datetime.datetime.strptime(aika, date_format)
 diff = time2 - time1
 
 days = diff.days
-#print (str(days) + ' päivää')
 
 hours = int((diff.seconds) / 3600)
-#print('{0} tuntia'.format(tunnit)
 
 minutes = int(((diff.seconds) / 60) % 60)
-#print (str(minutes) + ' Minutes')
 
 seconds = diff.seconds % 60
-#print (str(seconds) + ' secs')
 
 toast.show_toast("Overwatch League Paris 2020",
                    "{0} päivää, {1} tuntia, {2} minuuttia, {3} sekuntia".format(days, hours, minutes, seconds),
