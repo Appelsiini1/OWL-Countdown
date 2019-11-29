@@ -6,4 +6,4 @@ Without the toast notification, this should work on other OS's.
 The folder 'EXE' contains a easy-to-use executable. The executable has all of the required libraries in it.
 
 Note that the icon file is not uploaded due to copyright reasons. The logo copyright belongs to it's respective owner(s).
-Icon fixed by creating a .ico file named "owl.ico" in the same folder as the executable.
+Icon can be fixed by creating a .ico file named "owl.ico" in the same folder as the executable.
